@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.parent{
+    width: 100%;
+    height: 100px;  
+}
+.button{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px,solid,rgb(89, 89, 90);
+    box-shadow: 5px 5px 2px rgb(9, 182, 240);
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#green{
+    background-color: green;
+    color: white;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+#yellow{
+    background-color: yellow;
+    color: rgb(236, 15, 15);
+}
+h2{
+ display: inline;
+ position: absolute;
+ margin:-50px ;
+ color: black;
+ text-shadow:2px 2px 2px rgb(9, 127, 236); ;
+ 
+}
+.container{
+    position: relative;
+   margin-left: 35%;
+}
